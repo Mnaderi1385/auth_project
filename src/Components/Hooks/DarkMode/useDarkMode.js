@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 
 const useDarkMode = () => {
     const [theme, setTheme] = useState(localStorage.theme);
-    const colorTheme = theme === 'light' ? 'dark' : 'light';
+    const colorTheme = theme === 'dark' ? 'light' : 'dark';
 
     useEffect(() => {
         document.documentElement.classList.remove(colorTheme)
