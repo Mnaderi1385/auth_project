@@ -2,10 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-    font-family: "Vazir";
-    -webkit-tap-highlight-color: transparent;
-}
+
 
 .bg {
     background-image: url('/src/Pages/auth/images/background.jpg');
